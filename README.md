@@ -1,12 +1,66 @@
-# React + Vite
+# 📋 TaskFlow - Gestor de Tareas Colaborativo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación web moderna para la gestión de tareas en equipo con sincronización en tiempo real.
 
-Currently, two official plugins are available:
+## 🚀 Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ **Gestión completa de tareas** (crear, editar, eliminar)
+- 🔄 **Sincronización en tiempo real** con Firebase
+- 👥 **Colaboración en equipo**
+- 📊 **Filtros inteligentes** (todas, pendientes, en progreso, completadas)
+- 🎯 **Asignación de tareas** a miembros del equipo
+- 📅 **Fechas límite** y seguimiento de progreso
+- 🎨 **Interfaz moderna** con Tailwind CSS
+- 📱 **Diseño responsive**
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React 18
+- **Estilos:** Tailwind CSS
+- **Backend:** Firebase Firestore
+- **Iconos:** Lucide React
+- **Hosting:** Netlify
+- **Control de versiones:** Git & GitHub
+
+## 📱 Funcionalidades Principales
+
+### Gestión de Tareas
+- **Crear tareas** con título, descripción y prioridad
+- **Editar estados:** Pendiente, En Progreso, Completada
+- **Asignar** tareas a miembros del equipo
+- **Establecer fechas límite**
+- **Eliminar** tareas completadas
+
+### Colaboración
+- **Sincronización en tiempo real** entre usuarios
+- **Asignación de tareas** a diferentes miembros
+- **Seguimiento** de quién creó cada tarea
+- **Actualizaciones** instantáneas para todo el equipo
+
+### Filtros y Organización
+- **Todas las tareas** - Vista general
+- **Pendientes** - Tareas por comenzar
+- **En progreso** - Tareas activas
+- **Completadas** - Tareas finalizadas
+- **Mis tareas** - Tareas asignadas al usuario actual
+
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+
+## 👨‍💻 Autor
+
+- GitHub: [@joseantoniorocha](https://github.com/joseantoniorocha)
+- LinkedIn: [Jose Antonio Rocha Marquez](www.linkedin.com/in/jose-antonio-rocha-márquez-a68224200)
+
+## 🙏 Agradecimientos
+
+- React community por la excelente documentación
+- Firebase por la infraestructura backend
+- Tailwind CSS por el sistema de diseño
+- Lucide por los iconos
+
+---
+
+⭐ ¡Si te gusta el proyecto, no olvides darle una estrella!
